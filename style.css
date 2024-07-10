@@ -1,0 +1,8 @@
+h1 {
+  /* font-family: custom_82852; */
+  font-family: ui-sans-serif;
+  font-weight: 900;
+  font-size: 46px;
+  color: rgba(0, 174, 255, 1);
+  text-shadow: 2px 2px 4px rgba(0, 115, 255, 0.3);
+}
