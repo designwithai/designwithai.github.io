@@ -1,3 +1,7 @@
+body {
+  font-family: 'Pretendard Variable', ui-sans-serif, sans-serif;
+}
+
 main {
   margin-left: auto;
   width: 75vw;
@@ -5,7 +9,6 @@ main {
 
 nav {
   text-decoration: none;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.75;
@@ -80,7 +83,6 @@ section {
 }
 
 h1 {
-  font-family: ui-sans-serif;
   font-weight: 900;
   font-size: 64px;
   color: rgb(0, 174, 255);
@@ -89,7 +91,6 @@ h1 {
 
 h2 {
   margin-bottom: 4px;
-  font-family: ui-sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: rgb(0, 174, 255);
@@ -97,7 +98,6 @@ h2 {
 
 h3 {
   margin-bottom: 4px;
-  font-family: ui-sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.75;
@@ -111,7 +111,6 @@ h3 {
 
 h4{
   margin-bottom: 0px;
-  font-family: ui-sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: rgb(0, 115, 255);
@@ -122,7 +121,6 @@ h4{
 
 h5{
   margin-bottom: 0px;
-  font-family: ui-sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: rgb(0, 174, 255);
@@ -133,7 +131,6 @@ h5{
 
 h6{
   margin-bottom: 0px;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.75;
@@ -144,7 +141,6 @@ h6{
 .basictext{
   width: 50vw;
   line-height: 1.75;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-break: keep-all;
@@ -153,7 +149,6 @@ h6{
 p {
   width: 25vw;
   line-height: 1.75;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-break: keep-all;
@@ -173,7 +168,6 @@ img {
   height: 100%;
   line-height: 1.75;
   padding: 20px;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-break: keep-all;
@@ -198,7 +192,6 @@ img {
 
 .message-box__name {
   margin-bottom: 2px;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -215,7 +208,6 @@ img {
 
 .message-box__body {
   line-height: 1.75;
-  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 14px;
   word-break: keep-all;
@@ -223,7 +215,6 @@ img {
 
 .widget-button {
     position: fixed;
-    font-family: ui-sans-serif;
     font-weight: 600;
     right: 20px;
     bottom: 24px;
@@ -250,7 +241,6 @@ img {
 
 .widget-button2 {
     position: fixed;
-    font-family: ui-sans-serif;
     font-weight: 600;
     left: 20px;
     bottom: 24px;
