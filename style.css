@@ -27,7 +27,7 @@ nav {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:hover {
@@ -54,7 +54,6 @@ a:hover {
 .view3 ~ li a:hover{
   color: rgb(0, 115, 255)
 }
-
 
 ul {
     list-style: none;
@@ -166,6 +165,7 @@ img {
     width : 23vw;
     filter: drop-shadow(1.5px 2px 5px rgba(0, 115, 255, 0.3));
 }
+
 .footnote {
   position: absolute;
   right: 0;
@@ -193,7 +193,7 @@ img {
 
 .dialogue-line__part:nth-of-type(2) {
   flex: 10;
-} 
+}
 */
 
 .message-box__name {
@@ -225,8 +225,8 @@ img {
     position: fixed;
     font-family: ui-sans-serif;
     font-weight: 600;
-    right: 20px;  
-    bottom: 24px; 
+    right: 20px;
+    bottom: 24px;
     width: 60px;
     height: 60px;
     background: white;
@@ -248,12 +248,11 @@ img {
     opacity: 1
   }
 
-
 .widget-button2 {
     position: fixed;
     font-family: ui-sans-serif;
     font-weight: 600;
-    left: 20px;  
+    left: 20px;
     bottom: 24px;
     width: 60px;
     height: 60px;
@@ -275,7 +274,3 @@ img {
     background-color: rgb(0, 174, 255);
     opacity: 1
   }
-
-
-
-
