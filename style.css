@@ -158,6 +158,7 @@ a:hover {
 .nav-section-list {
   margin-bottom: 0;
   padding-left: 0;
+  word-break: keep-all;
   list-style: none;
 }
 
