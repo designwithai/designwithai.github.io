@@ -188,53 +188,34 @@ a:hover {
 }
 
 .widget-button {
-    position: fixed;
-    font-weight: 600;
-    right: 20px;
-    bottom: 24px;
-    width: 60px;
-    height: 60px;
-    background: white;
-    color: rgb(0, 174, 255);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: 2px 4px 8px rgb(0, 174, 255, 0.4);
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  .widget-button:hover {
-    color: white;
-    background-color: rgb(0, 174, 255);
-    opacity: 1
-  }
+  position: fixed;
+  font-weight: 600;
+  bottom: 24px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  color: rgb(0, 174, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 2px 4px 8px rgb(0, 174, 255, 0.4);
+  opacity: 0.6;
+}
 
-.widget-button2 {
-    position: fixed;
-    font-weight: 600;
-    left: 20px;
-    bottom: 24px;
-    width: 60px;
-    height: 60px;
-    background: white;
-    color: rgb(0, 174, 255);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: 2px 4px 8px rgb(0, 174, 255, 0.4);
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  .widget-button2:hover {
-    color: white;
-    background-color: rgb(0, 174, 255);
-    opacity: 1
-  }
+.widget-button--left {
+  left: 20px;
+}
+
+.widget-button--right {
+  right: 20px;
+}
+
+.widget-button:hover {
+  color: white;
+  background-color: rgb(0, 174, 255);
+  opacity: 1
+}
