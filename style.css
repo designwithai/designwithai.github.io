@@ -8,12 +8,6 @@ main {
 }
 
 nav {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.75;
-  word-break: keep-all;
-
   position: fixed;
   bottom: 0;
   left: 0;
@@ -22,54 +16,6 @@ nav {
   border-radius: 0 28px 0 0;
   background-color: white;
   filter: drop-shadow(1.5px 2px 5px rgba(0, 115, 255, 0.3));
-
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-}
-
-.view1, .view1 ~ li a {
-  color: rgb(0, 115, 255);
-}
-.view1 ~ li a:hover{
-  color: rgb(0, 174, 255)
-}
-
-.view2, .view2 ~ li a{
-  color: rgb(0, 174, 255);
-}
-.view2 ~ li a:hover{
-  color: rgb(0, 115, 255)
-}
-
-.view3, .view3 ~ li a{
-  color: rgba(81, 0, 255);
-}
-.view3 ~ li a:hover{
-  color: rgb(0, 115, 255)
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    line-height: 1.75;
-}
-
-.column {
-    flex: 1;
-    padding: 10px;
 }
 
 header {
@@ -109,17 +55,12 @@ img {
     filter: drop-shadow(1.5px 2px 5px rgba(0, 115, 255, 0.3));
 }
 
-.footnote {
-  position: absolute;
-  right: 0;
-  width: 25vw;
-  height: 100%;
-  line-height: 1.75;
-  padding: 20px;
-  font-weight: 400;
-  font-size: 14px;
-  word-break: keep-all;
-  color: rgb(0, 174, 255);
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 .dialogue-line {
@@ -156,6 +97,74 @@ img {
   font-weight: 400;
   font-size: 14px;
   word-break: keep-all;
+}
+
+.footnote {
+  position: absolute;
+  right: 0;
+  width: 25vw;
+  height: 100%;
+  line-height: 1.75;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  word-break: keep-all;
+  color: rgb(0, 174, 255);
+}
+
+.nav-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 30px 28px;
+}
+
+.nav-grid__column {
+  flex: 1;
+  color: var(--text-color);
+  letter-spacing: -0.0078125em;
+}
+
+.nav-grid__column--1 {
+  --text-color: rgb(0, 115, 255);
+  --link-hover-color: rgb(0, 174, 255);
+}
+
+.nav-grid__column--2 {
+  --text-color: rgb(0, 174, 255);
+  --link-hover-color: rgb(0, 115, 255);
+}
+
+.nav-grid__column--3 {
+  --text-color: rgb(81, 0, 255);
+  --link-hover-color: rgb(0, 115, 255);
+}
+
+.nav-grid__column a {
+  color: inherit;
+}
+
+.nav-grid__column a:hover {
+  color: var(--link-hover-color);
+}
+
+.nav-section-title {
+  margin-bottom: 2px;
+  line-height: 1.75;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-section-list {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-section-list__item {
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .widget-button {
