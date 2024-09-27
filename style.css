@@ -138,16 +138,8 @@ h6{
   word-break: keep-all;
 }
 
-.basictext{
-  width: 50vw;
-  line-height: 1.75;
-  font-weight: 400;
-  font-size: 14px;
-  word-break: keep-all;
-}
 
 p {
-  width: 25vw;
   line-height: 1.75;
   font-weight: 400;
   font-size: 14px;
