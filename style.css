@@ -103,42 +103,6 @@ h3 {
   line-height: 1.75;
 }
 
-/*
-교수자 = h4
-학생 제목 =h5
-학생 본문 =h6
-*/
-
-h4{
-  margin-bottom: 0px;
-  font-weight: 600;
-  font-size: 14px;
-  color: rgb(0, 115, 255);
-  line-height: 1.75;
-  word-break: keep-all;
-}
-
-
-h5{
-  margin-bottom: 0px;
-  font-weight: 600;
-  font-size: 14px;
-  color: rgb(0, 174, 255);
-  line-height: 1.75;
-  margin-left: 25vw;
-  word-break: keep-all;
-}
-
-h6{
-  margin-bottom: 0px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.75;
-  margin-left: 25vw;
-  word-break: keep-all;
-}
-
-
 p {
   line-height: 1.75;
   font-weight: 400;
