@@ -78,18 +78,20 @@ a:hover {
   flex: 10;
 }
 
-.message-box__name {
-  margin-bottom: 2px;
-  font-weight: 600;
-  font-size: 14px;
-}
-
+.message-box--instructor .anchor,
 .message-box--instructor .message-box__name {
   color: rgb(0, 115, 255);
 }
 
+.message-box--learner .anchor,
 .message-box--learner .message-box__name {
   color: rgb(0, 174, 255);
+}
+
+.message-box__name {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .message-box__body {
