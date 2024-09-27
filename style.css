@@ -16,6 +16,7 @@ nav {
   border-radius: 0 28px 0 0;
   background-color: white;
   filter: drop-shadow(1.5px 2px 5px rgba(0, 115, 255, 0.3));
+}
 
 header {
   padding: 0 14px 128px;
