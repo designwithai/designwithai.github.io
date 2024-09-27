@@ -105,12 +105,17 @@ a:hover {
   word-break: keep-all;
 }
 
-.footnote {
+.footnote-container {
+  position: relative;
+}
+
+.footnote-container__footnote {
   position: absolute;
-  right: 0;
+  left: 100%;
   width: 25vw;
+  margin-top: -4px;
   padding-right: 28px;
-  padding-left: 14px;
+  padding-left: 28px;
   line-height: 1.75;
   font-weight: 400;
   font-size: 14px;
