@@ -63,10 +63,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: black;
-}
-
 .dialogue-line {
   display: flex;
   padding-top: 28px;
