@@ -27,6 +27,10 @@ section {
   padding: 20px 14px;
 }
 
+section.appendix {
+  margin-left: auto;
+}
+
 h1 {
   font-weight: 900;
   font-size: 64px;
@@ -112,6 +116,14 @@ a:hover {
   font-size: 14px;
   word-break: keep-all;
   color: rgb(0, 174, 255);
+}
+
+.footnote-container__quote {
+  color: rgb(0, 174, 255);
+}
+
+.appendix__inner {
+  margin-left: calc(3.5px - 28px);
 }
 
 .nav-grid {
